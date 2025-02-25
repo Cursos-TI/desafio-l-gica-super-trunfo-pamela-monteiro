@@ -77,7 +77,7 @@ int main() {
        if(populacao1>= populacao2){
         printf("População 1 é maior ou igual a população 2.\n");
        }else{
-        printf("População2 é menor que População 1\n");
+        printf("População 2 é menor que População 1\n");
        }
 
        if(area1<= area2){
@@ -99,33 +99,31 @@ int main() {
        }
        
 
-       prinf("Resultado:\n");
+       printf("Resultado:\n");
 
        if(populacao1>= populacao2){
-        printf("O estado 1 tem a maior população!\n");
+        printf("O estado 1 Venceu, com a maior população!\n");
        }else{
-        printf("O estado 2 tem a maior população!\n");
+        printf("O estado 2 venceu, com maior população!\n");
        }
 
        if(area1<= area2){
-        printf("O estado 1 tem a maior area!\n");
+        printf("O estado 1 Venceu, com a  maior area!\n");
        }else{
-        printf("O estado 2 tem a maior area!\n");
+        printf("O estado 2 Venceu, com a  maior area!\n");
        }
 
        if(pib1== pib2){
-        printf("O estado 1 tem o maior PIB!\n");
+        printf("O estado 1 Venceu, com o maior PIB!\n");
        }else{
-        printf("O estado 2 tem o maior PIB!\n");
+        printf("O estado 2 Venceu, com o maior PIB!\n");
        }
 
        if(pontos_turisticos1>pontos_turisticos2){
-        printf("O estado 1 tem mais pontos turisticos!\n");
+        printf("O estado 1 Venceu, com mais pontos turisticos!\n");
        }else{
-        printf("O estado 2 tem mais pontos turisticos\n");
+        printf("O estado 2 Venceu, com mais pontos turisticos\n");
        }
-
-
 
 
 
