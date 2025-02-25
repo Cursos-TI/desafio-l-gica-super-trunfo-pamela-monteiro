@@ -27,7 +27,7 @@ int main() {
      int pontos_turisticos2;
  
      // Entrada de dados primeiro estado
-     printf("Digite o estado:\n");
+     printf("Digite o estado 1:\n");
      scanf("%s", estado1);
  
      printf("Digite o codigo da cidade:\n");
@@ -51,7 +51,7 @@ int main() {
      
        // Entrada de dados estado2
  
-       printf("Digite o estado:\n");
+       printf("Digite o estado 2:\n");
        scanf("%s", estado2);
    
        printf("Digite o codigo da cidade:\n");
@@ -73,7 +73,62 @@ int main() {
        scanf("%d", &pontos_turisticos2);
 
 
+    
+       if(populacao1>= populacao2){
+        printf("População 1 é maior ou igual a população 2.\n");
+       }else{
+        printf("População2 é menor que População 1\n");
+       }
+
+       if(area1<= area2){
+        printf("Area 1 é menor ou igual a Area 2\n");
+       }else{
+        printf("A area1 é maior que a area2\n");
+       }
+
+       if(pib1== pib2){
+        printf("O PIB 1 é igual ao PIB2\n");
+       }else{
+        printf("O PIB 1 não é igual ao PIB 2\n");
+       }
+
+       if(pontos_turisticos1>pontos_turisticos2){
+        printf("A cidade 1 tem mais pontos turisticos que a cidade 2\n");
+       }else{
+        printf("A cidade 1 não tem mais pontos turisticos que a cidade 2\n");
+       }
        
+
+       prinf("Resultado:\n");
+
+       if(populacao1>= populacao2){
+        printf("O estado 1 tem a maior população!\n");
+       }else{
+        printf("O estado 2 tem a maior população!\n");
+       }
+
+       if(area1<= area2){
+        printf("O estado 1 tem a maior area!\n");
+       }else{
+        printf("O estado 2 tem a maior area!\n");
+       }
+
+       if(pib1== pib2){
+        printf("O estado 1 tem o maior PIB!\n");
+       }else{
+        printf("O estado 2 tem o maior PIB!\n");
+       }
+
+       if(pontos_turisticos1>pontos_turisticos2){
+        printf("O estado 1 tem mais pontos turisticos!\n");
+       }else{
+        printf("O estado 2 tem mais pontos turisticos\n");
+       }
+
+
+
+
+
     // Definição das variáveis para armazenar as propriedades das cidades
     // Você pode utilizar o código do primeiro desafio
 
